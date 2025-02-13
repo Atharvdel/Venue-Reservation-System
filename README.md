@@ -12,6 +12,6 @@ Venue Selection: Browse and select venues based on location, capacity, and event
 
   Database Integration: Stores venue information, including pricing, capacity, and additional services.
 
-  User-Friendly UI: Clean and modern UI with a blue and white color scheme, rounder corners, and well-structured layouts.
+  User-Friendly UI: Clean and modern UI with a blue and white color scheme.
 
   Data Persistence: Venue information is stored locally in an SQL database without requiring a server.
