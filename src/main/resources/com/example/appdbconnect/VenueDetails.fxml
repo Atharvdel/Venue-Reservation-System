@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="450.0" prefWidth="400.0" spacing="15" style="-fx-padding: 20; -fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appdbconnect.VenueDetailsController">
+    <Label style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #0056b3;" text="Venue Details" textAlignment="CENTER"/>
+
+    <!-- Name -->
+    <HBox spacing="10">
+        <Label text="Name:" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+        <Label fx:id="nameLabel" style="-fx-font-size: 16px;"/>
+    </HBox>
+
+    <!-- Location -->
+    <HBox spacing="10">
+        <Label text="Location:" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+        <Label fx:id="locationLabel" style="-fx-font-size: 16px;"/>
+    </HBox>
+
+    <!-- Price -->
+    <HBox spacing="10">
+        <Label text="Price:" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+        <Label fx:id="priceLabel" style="-fx-font-size: 16px;"/>
+    </HBox>
+
+    <!-- Capacity -->
+    <HBox spacing="10">
+        <Label text="Capacity:" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+        <Label fx:id="capacityLabel" style="-fx-font-size: 16px;"/>
+    </HBox>
+
+    <!-- Contact Email -->
+    <HBox spacing="10">
+        <Label text="Contact Email:" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+        <Label fx:id="contactEmailLabel" style="-fx-font-size: 16px;"/>
+    </HBox>
+
+    <!-- Contact Phone -->
+    <HBox spacing="10">
+        <Label text="Contact Number:" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+        <Label fx:id="contactPhoneLabel" style="-fx-font-size: 16px;"/>
+    </HBox>
+
+    <!-- Optional Services Title -->
+    <Label style="-fx-font-size: 16px; -fx-font-weight: bold; -fx-padding: 10 0 0 0;" text="Add Optional Services" />
+
+    <!-- Optional Services Checkboxes -->
+    <VBox spacing="5">
+        <CheckBox fx:id="photographyCheckBox" text="Photography" style="-fx-font-size: 14px;"/>
+        <CheckBox fx:id="videographyCheckBox" text="Videography" style="-fx-font-size: 14px;"/>
+        <CheckBox fx:id="cateringCheckBox" text="Catering" style="-fx-font-size: 14px;"/>
+    </VBox>
+
+    <!-- Total Price Display -->
+    <HBox alignment="CENTER" spacing="10">
+        <Label style="-fx-font-weight: bold; -fx-font-size: 16px;" text="Total:" />
+        <Label fx:id="totalLabel" text="Total: ₹0.0" style="-fx-font-size: 16px;"/>
+    </HBox>
+
+    <!-- Reserve Button -->
+    <Button fx:id="reserveButton" onAction="#onReserveButtonClick" style="-fx-font-size: 14px; -fx-padding: 5px 20px; -fx-background-color: #0056b3; -fx-text-fill: white;" text="Reserve" />
+</VBox>
