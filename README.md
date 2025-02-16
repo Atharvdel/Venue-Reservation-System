@@ -10,7 +10,7 @@ Venue Selection: Browse and select venues based on location, capacity, and event
 
   Availability Check: View available venues based on input parameters such as date, city, and number of attendees.
 
-  Database Integration: Stores venue information, including pricing, capacity, and additional services.
+  Database Integration: Stores venue information, including pricing, capacity, and additional services such as catering, photography and videography.
 
   User-Friendly UI: Clean and modern UI.
 
